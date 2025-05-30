@@ -28,4 +28,7 @@ Step 2: Launch an EC2 Instance
 1. In the AWS Management Console, go to the EC2 Dashboard.
 2. Click "Launch instances" to start the setup process.
 ![Snapshot of step 1](./Images/image1.PNG)
-
+3. Select your preferred region (the closest to you) to launch an instance
+4. Select an AMI that supports LAMP stack, such as Ubuntu.
+5. Choose an EC2 instance type like _t2.micro_ (eligible for the free tier). Please read information about AWS [free tier limits](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) and make sure that you ***STOP*** your EC2 instance when you are not using it.
+![Snapshot of step 2](./Images/image2.PNG)
